@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- <color name="maizi_green">#3BB753</color> -->
+    <color name="github_blue">#1F76B6</color>
+	
+    <!-- 普通颜色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="list_on">#DDDDDD</color>
+    <color name="gray_light">#CCCCCC</color>
+    <color name="gray">#999999</color>
+    <color name="gray_a">#AAAAAA</color>
+    <color name="gray_f8">#F8F8F8</color>
+    <color name="gray_f3">#F3F3F3</color>
+    <color name="gray_d8">#D8D8D8</color>
+    <color name="gray_ee">#EEEEEE</color>
+    <color name="gray_dark">#545454</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    
+    <!-- 不同透明度的黑色 -->
+    <color name="black">#FF000000</color>
+    <color name="black_90p">#E6000000</color>
+    <color name="black_80p">#CC000000</color>
+    <color name="black_70p">#B3000000</color>
+    <color name="black_60p">#99000000</color>
+    <color name="black_50p">#80000000</color>
+    <color name="black_40p">#66000000</color>
+    <color name="black_30p">#4D000000</color>
+    <color name="black_20p">#33000000</color>
+    <color name="black_10p">#1A000000</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- tab color -->
+    <color name="tab_color_1">#FA6F57</color>
+    <color name="tab_color_2">#A1D36E</color>
+    <color name="tab_color_3">#55C1E7</color>
+    <color name="tab_color_4">#AC94E9</color>
+
+    <!-- 主题颜色 -->
+    <color name="theme_text_color">#333333</color>
+    <color name="theme_black">#1A1A1A</color>
+    <color name="theme_white">#EEEEEE</color>
+    
+    <!-- <color name="theme_red">#E96B69</color> -->
+    <color name="theme_red">#FF725F</color>
+    <color name="theme_red_dark">#E7523E</color>
+    
+    <color name="theme_blue">@color/v2_maizi_blue</color>
+    <color name="theme_blue_light">#56DDC4</color>
+    <color name="theme_blue_80p">#CB5ECFBA</color>
+    
+    <color name="theme_green">#3BB753</color>
+    
+    <!-- dialog按钮-常态 -->
+    <color name="dialog_btn_normal">#F3F3F3</color>
+    <!-- dialog按钮-点击 -->
+    <color name="dialog_btn_on">#DADADA</color>
+    <color name="dialog_title">@color/v2_maizi_blue</color>
+    <color name="dialog_msg">#313131</color>
+    <color name="dialog_btn_top_line">#C2C2C2</color>
+    <color name="dialog_title_bottom_line">@color/v2_maizi_blue</color>
+
+</resources>

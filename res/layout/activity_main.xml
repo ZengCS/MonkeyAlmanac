@@ -1,0 +1,198 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/v2_theme_bg_color" >
+
+    <!-- TitleBar -->
+
+    <include
+        android:id="@+id/common_titlebar"
+        layout="@layout/titlebar_activity" />
+
+    <!-- 内容展示区域 -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_titlebar"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_today"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="12dip"
+                android:paddingTop="12dip"
+                android:text="@string/txt_today"
+                android:textColor="@color/C3"
+                android:textSize="@dimen/T0"
+                android:textStyle="bold" />
+
+            <!-- 宜 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/v2_maizi_orange_2"
+                    android:gravity="center"
+                    android:textColor="@color/C1"
+                    android:text="@string/txt_can_do"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/layout_good"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:background="@color/v2_maizi_orange_2_light"
+                    android:minHeight="100dip"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 不宜 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/v2_maizi_red"
+                    android:gravity="center"
+                    android:text="@string/txt_can_not_do"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/layout_bad"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:background="@color/v2_maizi_red_light"
+                    android:minHeight="100dip"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 座位朝向 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_site_direction"
+                    android:textColor="@color/C1"
+                    android:textSize="@dimen/T4"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_face_to"
+                    android:textColor="@color/C3"
+                    android:textSize="@dimen/T4" />
+
+                <TextView
+                    android:id="@+id/tv_direction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_dft_direction"
+                    android:textColor="@color/v2_maizi_blue"
+                    android:textSize="@dimen/T4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_less_bug"
+                    android:textColor="@color/C3"
+                    android:textSize="@dimen/T4" />
+            </LinearLayout>
+
+            <!-- 今日宜饮 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_today_drink"
+                    android:textColor="@color/C1"
+                    android:textSize="@dimen/T4"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_drinks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textColor="@color/C3"
+                    android:textSize="@dimen/T4" />
+            </LinearLayout>
+
+            <!-- 女神亲近指数 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_goddess"
+                    android:textColor="@color/C1"
+                    android:textSize="@dimen/T4"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_goddess"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_stars"
+                    android:textColor="@color/v2_maizi_red"
+                    android:textSize="@dimen/T4" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

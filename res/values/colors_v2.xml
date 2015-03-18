@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 用于侧边栏 -->
+    <color name="A1">#303534</color>
+    <color name="A2">#4C5452</color>
+    <color name="A3">#869592</color>
+
+    <!-- 用于背景底色 -->
+    <color name="B1">#F3F3F3</color>
+    <color name="B2">#F5F5F5</color>
+    <color name="B3">#F8F8F8</color>
+    <color name="B4">#E2E2E2</color>
+    <color name="B5">#EEEEEF</color>
+    <color name="B6">#EEEEEE</color>
+
+    <!-- 字体颜色 -->
+    <color name="C1">#323232</color>
+    <color name="C1_90p">#E6323232</color>
+    <color name="C2">#BFCDCA</color>
+    <color name="C3">#81918E</color>
+    <color name="C4">#5ECFBA</color>
+    <color name="C5">#FF725F</color>
+    <color name="C6">#B3B3B3</color>
+    <color name="C7">#FFFFFF</color>
+    
+    <!-- 下划线 -->
+    <color name="L1">#C8C8C8</color>
+    <color name="L2">#E2E2E2</color>
+
+    <!-- 通用 -->
+    <color name="v2_titlebar_text">@color/C1</color>
+    <color name="v2_theme_bg_color">@color/B3</color>
+    <color name="v2_maizi_blue">@color/C4</color>
+    <color name="v2_maizi_orange">#ff8324</color>
+    <color name="v2_maizi_orange_2">#EFB839</color>
+    <color name="v2_maizi_orange_2_light">#FFE3A1</color>
+    <color name="v2_maizi_blue_click">#50A192</color>
+    <color name="v2_maizi_blue_60p">#995ECFBA</color>
+    <color name="v2_maizi_red">@color/C5</color>
+    <color name="v2_maizi_red_light">#FFB3A9</color>
+    <color name="v2_bottom_line_blue">@color/v2_maizi_blue</color>
+    <color name="v2_titlebar_bg">@color/B2</color>
+    <color name="v2_bottom_line">@color/L2</color>
+    <color name="v2_tab_bg">@color/B3</color>
+    <color name="v2_list_normal">@color/B3</color>
+    <color name="v2_list_on">@color/B6</color>
+    <color name="v2_titlebar_line">@color/L1</color>
+    <color name="v2_avatar_line">@color/L2</color>
+    <color name="v2_vlc_line">#737373</color>
+
+    <!-- 侧边栏背景色 -->
+    <color name="v2_menu_bg">@color/A1</color>
+    <color name="v2_menu_line">@color/A2</color>
+    <color name="v2_menu_btn_normal">@color/A2</color>
+    <color name="v2_menu_btn_on">#3A3E3D</color>
+    <color name="v2_menu_text">@color/A3</color>
+
+</resources>

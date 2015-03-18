@@ -1,0 +1,113 @@
+<resources>
+
+    <!-- TextSize -->
+    <dimen name="T0">21sp</dimen>
+    <dimen name="T1">19sp</dimen>
+    <dimen name="T2">18sp</dimen>
+    <dimen name="T3">17sp</dimen>
+    <dimen name="T4">16sp</dimen>
+    <dimen name="T5">16sp</dimen>
+    <dimen name="T6">15sp</dimen>
+    <dimen name="T7">14sp</dimen>
+    <dimen name="T8">13sp</dimen>
+    <dimen name="T9">12sp</dimen>
+    
+    <dimen name="v2_txt_size_titlebar">@dimen/T1</dimen>
+    <dimen name="v2_txt_size_tab">@dimen/T3</dimen>
+    <dimen name="v2_txt_size_order">@dimen/T5</dimen>
+
+    <!-- Commons -->
+    <dimen name="line_1px">1px</dimen>
+    <dimen name="line_1dp">1dip</dimen>
+    <dimen name="page_top_tips_height">30dip</dimen>
+    <dimen name="gap_size_big3">36dip</dimen>
+    <dimen name="gap_size_big2">28dip</dimen>
+    <dimen name="gap_size_big1">24dip</dimen>
+    <dimen name="gap_size_big0">22dip</dimen>
+    <dimen name="gap_size_normal">17dip</dimen>
+    <dimen name="gap_size_small">12dip</dimen>
+    <dimen name="gap_size_min">8dip</dimen>
+    <dimen name="gap_size_5dp">5dip</dimen>
+    <dimen name="gap_size_menu_top">60dip</dimen>
+    <dimen name="ad_height">180dip</dimen>
+    <dimen name="common_btn_height">56dip</dimen>
+    <dimen name="common_icon_height">25dip</dimen>
+    
+
+    <!-- AvatarSize -->
+    <dimen name="avatar_min">46dip</dimen>
+    <dimen name="avatar_small">84dip</dimen>
+    <dimen name="avatar_mid">96dip</dimen>
+    <dimen name="avatar_big">112dip</dimen>
+    <dimen name="avatar_large">128dip</dimen>
+    <dimen name="avatar_large_2">200dip</dimen>
+
+    <!-- IndexTabHeight -->
+    <dimen name="index_tab_height">49dp</dimen>
+    <dimen name="index_tab_title_height">46dp</dimen>
+    <dimen name="index_tab_bottom_line_height">2dp</dimen>
+
+    <!-- SlidingMenu -->
+    <dimen name="avatar_padding">10dip</dimen>
+    <dimen name="menu_item_outer_height">61dip</dimen>
+    <dimen name="menu_item_inner_height">60dip</dimen>
+    <dimen name="menu_item_bottom_line_height">1dip</dimen>
+    <dimen name="menu_item_icon_size">50dip</dimen>
+    <dimen name="menu_item_icon_margin">5dip</dimen>
+    <dimen name="menu_login_btn_width">101dip</dimen>
+    <dimen name="menu_login_btn_height">40dip</dimen>
+    
+
+    <!-- ExcellentCourse -->
+    <dimen name="excellent_course_img_height">68dip</dimen>
+    <dimen name="excellent_course_img_width">107dip</dimen>
+    <dimen name="excellent_course_img_padding">0dip</dimen>
+    <dimen name="excellent_course_item_margin">10dip</dimen>
+    <dimen name="excellent_course_item_order_height">36dip</dimen>
+
+    <!-- VocationDetail -->
+    <dimen name="vocation_detail_item_height">54dip</dimen>
+    <dimen name="vocation_detail_item_padding">5dip</dimen>
+    <dimen name="vocation_detail_item_margin">8dip</dimen>
+
+    <!-- SettingActivity -->
+    <dimen name="setting_height">50dip</dimen>
+    <dimen name="setting_padding_h">20dip</dimen>
+
+    <!-- SearchActivity -->
+    <dimen name="search_item_height">50dip</dimen>
+    <dimen name="search_history_list_height">201dip</dimen>
+    
+    <!-- Career -->
+    <dimen name="career_grid_width">162dip</dimen>
+    <dimen name="button_btn_height">68dip</dimen>
+    
+    <!-- Teacher -->
+    <dimen name="teacher_avatar_size">112dip</dimen>
+    <dimen name="teacher_his_course_height">28dip</dimen>
+    
+    <!-- MyCourse -->
+    <dimen name="my_course_career_size">68dip</dimen>
+    <dimen name="my_course_other_width">162dip</dimen>
+    <dimen name="my_course_other_height">103dip</dimen>
+    
+    <!-- CoursePlaying -->
+    <dimen name="player_height">203dip</dimen>
+    <dimen name="full_title_height">50dip</dimen>
+    <dimen name="control_bar_height_normal">45dip</dimen>
+    <dimen name="control_bar_btn_margin">5dip</dimen>
+    <dimen name="control_bar_seeker_margin">8dip</dimen>
+    <dimen name="control_bar_height_full">59dip</dimen>
+    
+    <!-- CareerPay -->
+    <dimen name="submit_btn_width">80dip</dimen>
+    <dimen name="pay_btn_height">68dip</dimen>
+    
+    <!-- InfoCenterProfile -->
+    <dimen name="avatar_dialog_height">67dip</dimen>
+    <!-- Download -->
+    <dimen name="down_circle_progress_size">42dip</dimen>
+    <dimen name="down_circle_progress_border_size">2dip</dimen>
+    <dimen name="down_percent_min_width">50dip</dimen>
+    
+</resources>

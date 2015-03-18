@@ -1,0 +1,32 @@
+<resources>
+	
+    <!-- 自定义主题 -->
+    <dimen name="activity_padding_none">0dip</dimen>
+    <dimen name="activity_padding_small">5dp</dimen>
+    <dimen name="activity_padding_normal">10dp</dimen>
+    <dimen name="activity_padding_big">15dp</dimen>
+    <dimen name="activity_padding_lager">20dp</dimen>
+    
+    <!-- 标题栏高度 -->
+    <dimen name="theme_titlebar_height">50dp</dimen>
+    <dimen name="theme_titlebar_padding_bottom">1px</dimen>
+    
+    <!-- 下载List Item 高度 -->
+    <dimen name="down_item_height">64dp</dimen>
+    <dimen name="down_item_height_top">40dp</dimen>
+    <dimen name="down_item_height_bottom">20dp</dimen>
+    
+    <!-- 底部Tab -->
+    <dimen name="theme_tab_height">55dp</dimen>
+    
+    <!-- 默认字体大小 -->
+    <dimen name="theme_text_dft_size">14sp</dimen>
+    <!-- 标题栏字体大小 -->
+    <dimen name="theme_titlebar_text_size">18sp</dimen>
+    
+    <!-- SlidingMenu -->
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">10dp</dimen>
+    
+</resources>

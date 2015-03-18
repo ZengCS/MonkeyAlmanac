@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/disableSplitMotion"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/theme_titlebar_height"
+    android:background="@color/v2_titlebar_line"
+    android:paddingBottom="@dimen/theme_titlebar_padding_bottom" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/theme_titlebar_height"
+        android:background="@color/v2_titlebar_bg"
+        android:paddingLeft="@dimen/theme_titlebar_height"
+        android:paddingRight="@dimen/theme_titlebar_height" >
+
+        <TextView
+            android:id="@+id/titletxt_center_act"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@color/v2_titlebar_text"
+            android:textSize="@dimen/v2_txt_size_titlebar"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <!-- 返回按钮 -->
+
+    <ImageView
+        android:id="@+id/titlebtn_left_act"
+        android:layout_width="@dimen/theme_titlebar_height"
+        android:layout_height="@dimen/theme_titlebar_height"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_back_selector" />
+
+    <!-- 右侧按钮,默认隐藏 -->
+
+    <TextView
+        android:id="@+id/titletxt_right_act"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:gravity="center"
+        android:paddingLeft="@dimen/gap_size_small"
+        android:paddingRight="@dimen/gap_size_small"
+        android:text="@string/txt_about"
+        android:textColor="@drawable/color_text_blue"
+        android:textSize="@dimen/T2"
+        android:visibility="visible" />
+    <!-- 顶部提示栏 -->
+
+    <RelativeLayout
+        android:id="@+id/top_tip_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/v2_maizi_blue"
+        android:clickable="true"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/top_tip_icon"
+            android:layout_width="@dimen/theme_titlebar_height"
+            android:layout_height="@dimen/theme_titlebar_height"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_top_tip_common" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/top_tip_icon"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/top_tip_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/txt_top_tip"
+                android:textColor="@color/white"
+                android:textSize="@dimen/T4" />
+
+            <TextView
+                android:id="@+id/top_tip_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/T8" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

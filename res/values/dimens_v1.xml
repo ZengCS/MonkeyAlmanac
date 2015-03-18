@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin_small">5dip</dimen>
+    <dimen name="activity_horizontal_margin">10dip</dimen>
+    <dimen name="activity_horizontal_margin_big">15dip</dimen>
+    <dimen name="activity_horizontal_margin_large">20dip</dimen>
+    
+    <dimen name="setting_right_arrow_height">18dip</dimen>
+    
+    <dimen name="activity_vertical_margin_small">5dip</dimen>
+    <dimen name="activity_vertical_margin">10dip</dimen>
+    <dimen name="activity_vertical_margin_big">15dip</dimen>
+    <dimen name="activity_vertical_margin_large">20dip</dimen>
+    
+    <dimen name="listview_vertical_margin">10dip</dimen>
+    <dimen name="listview_horizontal_margin">10dip</dimen>
+    <dimen name="height_action_bar">50dip</dimen>
+    <dimen name="size_actionbar_text">20sp</dimen>
+    <dimen name="size_main_title_text">16sp</dimen>
+    <dimen name="height_ad_scoller">190dip</dimen>
+    <dimen name="height_button">48dip</dimen>
+    <dimen name="height_edittext">50dip</dimen>
+    <dimen name="play_video_height">180dip</dimen>
+    <dimen name="play_video_height_vlc">200dip</dimen>
+    <dimen name="play_video_bar_height">40dip</dimen>
+    <dimen name="play_video_bar_height_top">-30dip</dimen>
+
+</resources>

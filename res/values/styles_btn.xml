@@ -1,0 +1,52 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 输入框公共样式 -->
+    <style name="customInputStyle">
+        <item name="android:maxLength">50</item>
+        <item name="android:background">@color/C7</item>
+        <item name="android:paddingLeft">@dimen/gap_size_normal</item>
+        <item name="android:paddingRight">@dimen/gap_size_normal</item>
+        <item name="android:textColor">@color/C1</item>
+        <item name="android:textColorHint">@color/C2</item>
+        <item name="android:textSize">@dimen/T3</item>
+    </style>
+    
+    <!-- 输入框公共样式-无左margin -->
+    <style name="customInputStyleWithoutLeftPadding">
+        <item name="android:maxLength">50</item>
+        <item name="android:background">@color/C7</item>
+        <item name="android:paddingRight">@dimen/gap_size_normal</item>
+        <item name="android:textColor">@color/C1</item>
+        <item name="android:textColorHint">@color/C2</item>
+        <item name="android:textSize">@dimen/T3</item>
+    </style>
+
+    <!-- 按钮默认 -->
+    <style name="mBaseBtn">
+        <item name="android:textSize">@dimen/T3</item>
+        <item name="android:textColor">@color/C7</item>
+    </style>
+
+    <!-- 蓝色按钮 -->
+    <style name="blueBtn" parent="mBaseBtn">
+        <item name="android:background">@drawable/bg_blue_selector</item>
+    </style>
+
+    <!-- 红色按钮 -->
+    <style name="redBtn" parent="mBaseBtn">
+        <item name="android:background">@drawable/bg_red_selector</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- 灰色按钮 -->
+    <style name="grayBtn" parent="mBaseBtn">
+        <item name="android:background">@drawable/bg_gray_selector</item>
+    </style>
+
+    <!-- 底部按钮 -->
+    <style name="bottomBtn">
+        <item name="android:textColor">@color/C7</item>
+        <item name="android:textSize">@dimen/T2</item>
+    </style>
+
+</resources>

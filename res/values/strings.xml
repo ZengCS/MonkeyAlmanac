@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">程序猿黄历</string>
+    <string name="txt_about">关于</string>
+    <string name="txt_top_tip">提示</string>
+    <string name="txt_can_do">宜</string>
+    <string name="txt_can_not_do">不宜</string>
+    <string name="txt_today">今天是2011年11月11日 星期五</string>
+    <string name="txt_goddess">女神亲近指数：</string>
+    <string name="txt_today_drink">今日宜饮：</string>
+    <string name="txt_site_direction">座位朝向：</string>
+    <string name="txt_face_to">面向</string>
+    <string name="txt_less_bug">写程序，BUG 最少。</string>
+    <string name="txt_dft_direction">南方</string>
+    <string name="txt_stars">★★☆☆☆</string>
+    <string name="txt_cancel">取消</string>
+    <string name="txt_ok">确定</string>
+    <string name="txt_i_know">我知道了</string>
+
+</resources>
