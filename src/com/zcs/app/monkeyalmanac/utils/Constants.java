@@ -7,6 +7,10 @@ public class Constants {
 	/** 方向 */
 	public static final String[] DIRECTIONS = { "北方", "东北方", "东方", "东南方", "南方", "西南方", "西方", "西北方" };
 
+	/** 变量名称 */
+	public static final String[] VAR_NAMES = { "jieguo", "huodong", "pay", "expire", "zhangdan", "every", "free", "i1", "a", "virtual", "ad", "spider", "mima",
+			"pass", "ui" };
+
 	/** 工具 */
 	public static final String[] TOOLS = { "Eclipse写程序", "MSOffice写文档", "记事本写程序", "Windows8", "Linux", "MacOS", "IE", "Android设备", "iOS设备" };
 

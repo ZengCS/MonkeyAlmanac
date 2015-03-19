@@ -9,6 +9,7 @@ import java.util.List;
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -242,7 +243,11 @@ public class MainActivity extends BaseActivity {
 		TextView name = (TextView) v.findViewById(R.id.tv_event_name);
 		TextView desc = (TextView) v.findViewById(R.id.tv_event_desc);
 		name.setText(event.getName());
-		desc.setText(event.getGood());
+		if (TextUtils.isEmpty(event.getGood())) {
+			desc.setVisibility(View.GONE);
+		} else {
+			desc.setText(event.getGood());
+		}
 		goodLayout.addView(v);
 	}
 
@@ -253,7 +258,11 @@ public class MainActivity extends BaseActivity {
 		TextView name = (TextView) v.findViewById(R.id.tv_event_name);
 		TextView desc = (TextView) v.findViewById(R.id.tv_event_desc);
 		name.setText(event.getName());
-		desc.setText(event.getBad());
+		if (TextUtils.isEmpty(event.getBad())) {
+			desc.setVisibility(View.GONE);
+		} else {
+			desc.setText(event.getBad());
+		}
 		badLayout.addView(v);
 	}
 
@@ -280,6 +289,13 @@ public class MainActivity extends BaseActivity {
 
 	// 从 activities 中随机挑选 size 个
 	private List<DataItem> pickRandomActivity(List<DataItem> activities, int size) {
+		List<DataItem> picked_events = pickRandom(activities, size);
+
+		for (int i = 0; i < picked_events.size(); i++) {
+			// picked_events[i] = parse(picked_events[i]);
+			parse(picked_events.get(i));
+		}
+
 		return pickRandom(activities, size);
 	}
 
@@ -294,6 +310,29 @@ public class MainActivity extends BaseActivity {
 		for (int j = 0; j < array.size() - size; j++) {
 			int index = random(iday, j) % result.size();
 			result.remove(index);
+		}
+
+		return result;
+	}
+
+	// 解析占位符并替换成随机内容
+	private DataItem parse(DataItem result) {
+		// DataItem result = new DataItem();
+		// // clone
+		// result.setName(event.getName());
+		// result.setGood(event.getGood());
+		// result.setBad(event.getBad());
+
+		if (result.getName().indexOf("%v") != -1) {
+			result.setName(result.getName().replace("%v", Constants.VAR_NAMES[random(iday, 12) % Constants.VAR_NAMES.length]));
+		}
+
+		if (result.getName().indexOf("%t") != -1) {
+			result.setName(result.getName().replace("%t", Constants.TOOLS[random(iday, 11) % Constants.TOOLS.length]));
+		}
+
+		if (result.getName().indexOf("%l") != -1) {
+			result.setName(result.getName().replace("%l", String.valueOf((random(iday, 12) % 247 + 30))));
 		}
 
 		return result;
